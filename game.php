@@ -1,11 +1,9 @@
 <?php
-
-
 use SnakesAndLadders\SnakesAndLaddersGame;
 
-include_once './autoload.php';
+include_once __DIR__.'/autoload.php';
 
-new AutoloadDefault('classes/');
+new AutoloadDefault(__DIR__.'/classes/');
 
 //$dice = new Dice(1,6);
 
